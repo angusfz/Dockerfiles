@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  nginx:
+    build: .
+    image: nginx-all200:latest
+    ports:
+      - "80:80"
